@@ -1,4 +1,5 @@
 # frontEndPracticing
-This repository is for me to practice front end development using React
-
-Working to improve skill set with Typescript and React framework. 
+Fresh College graduate, working to improve front end skill set. 
+-----------------------------------------------------------------------
+This repository will focus on  front end development using Typescript and the React framework
+---------------------------------------------------------------

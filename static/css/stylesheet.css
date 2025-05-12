@@ -1,0 +1,48 @@
+html {
+  font-family: "Gill Sans", sans-serif;
+  overflow-x: hidden;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: white;
+  height: 100%;
+}
+.topnav {
+  position: sticky;
+  top: 0;
+  background-color: purple;
+  border-bottom: 3px solid black;
+  z-index: 1000;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.gray-background {
+  background-color: #4c5760;
+}

@@ -11,17 +11,23 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-color: white;
-  height: 100%;
+  background: #700880;
+  background: linear-gradient(
+    180deg,
+    rgba(112, 8, 128, 1) 0%,
+    rgba(0, 146, 224, 1) 50%,
+    rgba(0, 94, 140, 1) 100%
+  );
+  /* height: 100%; */
 }
 .topnav {
   position: sticky;
   top: 0;
-  background-color: purple;
-  border-bottom: 3px solid black;
+  background-color: black;
+  border-bottom: 3px solid white;
   z-index: 1000;
   width: 100%;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.7s ease;
 }
 
 .topnav a {

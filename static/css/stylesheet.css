@@ -27,7 +27,6 @@ body {
   position: sticky;
   top: 0;
   background-color: black;
-  border-bottom: 3px solid white;
   z-index: 1000;
   width: 100%;
   transition: background-color 0.7s ease;
@@ -38,7 +37,7 @@ body {
   color: white;
   font-size: 35px;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   text-decoration: none;
 }
 
@@ -194,4 +193,10 @@ body {
   position: fixed;
   float: left;
   margin-top: 200px;
+}
+.accounts {
+  float: left;
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 300px;
 }

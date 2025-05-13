@@ -177,3 +177,21 @@ body {
   height: 0%;
   width: 5%;
 }
+.decklistimage {
+  position: relative;
+  float: right;
+  padding-left: 1200px;
+  font-size: 15px;
+}
+.decklists {
+  float: left;
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.decktable {
+  margin-left: 50px;
+  position: fixed;
+  float: left;
+  margin-top: 200px;
+}

@@ -359,3 +359,16 @@ body {
   border-color: #666666;
   background: #292929;
 }
+.footer-container {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  display: grid;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.footer a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}

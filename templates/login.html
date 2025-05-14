@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deck builder tool</title>
     <link rel="stylesheet" href=/static/css/stylesheet.css>
+    <script src="app.tsx"></script>
   </head>
-  <body>
+  <body class="altbody">
     <div class="topnav">
       <a href="/templates/index.html"> Home </a>
       <a href="/templates/decklist.html"> Deck Builder </a>
@@ -15,19 +16,33 @@
       <a href="/templates/login.html">Login</a>
       <a href="/templates/signup.html">Sign Up</a>
     </div>
-    <h1>Login to existing account</h1>
     <div class="accounts">
       <form action="">
         <h1>Login</h1>
-        <div class="input-box">
-          <input type="text" placeholder="Username" required />
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Password" required />
-        </div>
-        <input type="submit" value="Submit" />
-      </form>
-      <a href="/templates/signup.html"> No account? Sign up for free here!</a>
-    </div>
+  <div class="form-container">
+	<p class="title">Login</p>
+	<form class="form">
+		<div class="input-group">
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" placeholder="">
+		</div>
+		<div class="input-group">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="">
+			<div class="forgot">
+				<a rel="noopener noreferrer" href="#">Forgot Password ?</a>
+			</div>
+		</div>
+		<button class="sign">Sign in</button>
+    <p class="signup">Don't have an account?</p>
+		<a rel="noopener noreferrer" href="/templates/signup.html" class="">Sign up</a>
+	</p>
+	</form>
+		
+	</div>
+	
+	</div>
+	
+</div>
   </body>
 </html>

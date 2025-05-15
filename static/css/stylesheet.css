@@ -366,9 +366,16 @@ body {
   display: grid;
   box-sizing: border-box;
   flex-direction: column;
+  height: 0 auto;
+  z-index: 0;
+  bottom: 0;
+  width: 100%;
 }
 .footer a {
   margin: 5px;
   text-decoration: none;
   color: white;
+}
+.rerouting a {
+  text-decoration: none;
 }

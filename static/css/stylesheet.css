@@ -378,7 +378,6 @@ body {
   text-decoration: none;
 }
 .loginimage {
-  position: relative;
   float: right;
 }
 .wrapper {
@@ -388,4 +387,22 @@ body {
 }
 .main-content {
   flex: 1;
+}
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 40px;
+}
+
+.accounts {
+  float: none;
+  position: static;
+  margin: 0;
+}
+
+.loginimage {
+  float: none;
+  position: static;
 }

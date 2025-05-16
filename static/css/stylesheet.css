@@ -54,10 +54,7 @@ body {
 .topnav.gray-background {
   background-color: #4c5760;
 }
-.aboutImage {
-  position: absolute;
-  padding-left: 100px;
-}
+
 .hero {
   background-color: #141414;
 }
@@ -425,4 +422,24 @@ body {
   height: auto;
   border-radius: 10px;
   margin-top: 150px;
+}
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.aboutimage img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 1.1em;
+  line-height: 1.6;
 }

@@ -4,37 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deck builder tool</title>
-    <link rel="stylesheet" href=/static/css/stylesheet.css>
+    <link rel="stylesheet" href="/static/css/stylesheet.css" />
   </head>
   <body>
-    <div class="topnav">
-      <a href="/templates/index.html"> Home </a>
-      <a href="/templates/decklist.html"> Deck Builder </a>
-      <a href="/templates/cardindex.html">Card Search</a>
-      <a href="/templates/about.html">About</a>
-      <a href="/templates/login.html">Login</a>
-      <a href="/templates/signup.html">Sign Up</a>
-    </div>
-    <h1>Card Database</h1>
-    <div class="cardsearch">
-      <input type="text" placeholder="Search.." />
-    </div>
-    <div class="databasephoto">
-      <img
-        src="/static/images/image3.jpg"
-        alt="fantasy image "
-        style="height: 600px; width: 450px"
-      />
-      <p>-Photo by: Erone Stuff</p>
-    </div>
-  </body>
-  <footer>
-    <div class="footer-container">
-      <div class="footer">
-        <a href="/templates/about.html">About Us</a>
-        <br />
-        <br />
+    <div class="wrapper">
+      <div class="topnav">
+        <a href="/templates/index.html">Home</a>
+        <a href="/templates/decklist.html">Deck Builder</a>
+        <a href="/templates/cardindex.html">Card Search</a>
+        <a href="/templates/about.html">About</a>
+        <a href="/templates/login.html">Login</a>
+        <a href="/templates/signup.html">Sign Up</a>
+      </div>
+      <div class="main-content">
+        <div class="page-content">
+          <h1>Card Database</h1>
+
+          <div class="cardsearch">
+            <input type="text" placeholder="Search.." />
+          </div>
+
+          <div class="databasephoto">
+            <img
+              src="/static/images/image3.jpg"
+              alt="fantasy image"
+              style="height: 600px; width: 450px"
+            />
+            <p>- Photo by: Erone Stuff</p>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <a href="/templates/about.html">About Us</a>
+        </div>
       </div>
     </div>
-  </footer>
+  </body>
 </html>

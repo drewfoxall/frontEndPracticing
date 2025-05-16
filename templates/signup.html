@@ -4,55 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deck builder tool</title>
-    <link rel="stylesheet" href=/static/css/stylesheet.css>
+    <link rel="stylesheet" href="/static/css/stylesheet.css" />
     <script src="app.tsx"></script>
   </head>
   <body class="altbody">
     <div class="topnav">
-      <a href="/templates/index.html"> Home </a>
-      <a href="/templates/decklist.html"> Deck Builder </a>
+      <a href="/templates/index.html">Home</a>
+      <a href="/templates/decklist.html">Deck Builder</a>
       <a href="/templates/cardindex.html">Card Search</a>
       <a href="/templates/about.html">About</a>
       <a href="/templates/login.html">Login</a>
       <a href="/templates/signup.html">Sign Up</a>
     </div>
-    <div class="accounts">
-      <form action="">
-        <h1>Create an account</h1>
-  <div class="form-container">
-	<p class="title">Sign up</p>
-	<form class="form">
-		<div class="input-group">
-			<label for="username">Username</label>
-			<input type="text" name="username" id="username" placeholder="">
-		</div>
-		<div class="input-group">
-			<label for="password">Password</label>
-			<input type="password" name="password" id="password" placeholder="">
-			<div class="forgot">
-				<a rel="noopener noreferrer" href="#">Forgot Password ?</a>
-			</div>
-		</div>
-		<button class="sign">Create account</button>
-    <p class="signup">Already have an account?</p>
-		<a rel="noopener noreferrer" href="/templates/login.html" class="">Sign up</a>
-	</p>
-	</form>
-		
-	</div>
-	
-	</div>
-	
-</div>
-<footer>
-    <div class="footer-container">
-      <div class="footer">
-        <a href="/templates/about.html">About Us</a>
-        <br>
-        <br>
+
+    <div class="wrapper">
+      <div class="main-content">
+        <div class="signup-wrapper">
+          <!-- Sign-up form -->
+          <div class="accounts">
+            <form action="">
+              <h1>Create an account</h1>
+              <div class="form-container">
+                <p class="title">Sign up</p>
+                <form class="form">
+                  <div class="input-group">
+                    <label for="username">Username</label>
+                    <input
+                      type="text"
+                      name="username"
+                      id="username"
+                      placeholder=""
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder=""
+                    />
+                    <div class="forgot">
+                      <a rel="noopener noreferrer" href="#">Forgot Password?</a>
+                    </div>
+                  </div>
+                  <button class="sign">Create account</button>
+                  <p class="signup">Already have an account?</p>
+                  <a rel="noopener noreferrer" href="/templates/login.html"
+                    >Sign in</a
+                  >
+                </form>
+              </div>
+            </form>
+          </div>
+
+          <div class="signupimage">
+            <img
+              src="/static/images/signup_image.jpg"
+              alt="Sign up art"
+              height="500px"
+            />
+          </div>
+        </div>
       </div>
     </div>
-  </footer>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer">
+          <a href="/templates/about.html">About Us</a>
+          <br /><br />
+        </div>
+      </div>
+    </footer>
   </body>
-  
 </html>

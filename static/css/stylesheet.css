@@ -406,3 +406,23 @@ body {
   float: none;
   position: static;
 }
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap; /* responsive for small screens */
+}
+
+.accounts {
+  max-width: 400px;
+  width: 100%;
+}
+
+.signupimage img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 150px;
+}
